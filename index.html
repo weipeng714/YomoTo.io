@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>YomoTo</title>
+    <meta charset="utf-8">
+    <title>YomoTo</title>
+    <style>
+        /* 给收款码加个居中的样式 */
+        .pay-wall {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .pay-wall img {
+            width: 200px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-<h1>欢迎来这玩</h1>
-<p>这是年轻人的网站</p >
-<iframe
- src="https://udify.app/chatbot/UbfeRlbA1dTYxtoY"
- style="width: 100%; height: 100%; min-height: 700px"
- frameborder="0"
- allow="microphone">
-</iframe>
+    <!-- 1. 这里是新加的：一进来就显示的收款码区域 -->
+    <div class="pay-wall">
+        <h3>如需咨询，请先扫码支付解锁服务</h3>
+        <!-- 把下面的链接换成你用 imgurl.com 拿到的图片直链 -->
+        < img src="https://www.imgur.la/images/2026/05/25/2_1084421000_202_61_3_1108882525_9ba63659b6af1bc7e0fc36e7a2068f5f-1.png" alt="收款码">
+        <p>支付后即可开始咨询，感谢理解</p >
+    </div>
+
+    <!-- 2. 下面是你原来的内容，完全不动 -->
+    <h1>欢迎来这玩</h1>
+    <p>这是年轻人的网站</p >
+    <iframe
+        src="https://udify.app/chatbot/UbfeRlbA1dTYxtoy"
+        style="width: 100%; height: 100%; min-height: 700px"
+        frameborder="0"
+        allow="microphone">
+    </iframe>
 </body>
 </html>
